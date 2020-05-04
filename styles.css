@@ -34,7 +34,7 @@ body {
 .resume__block {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .contact-info {
@@ -140,4 +140,65 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.main-info {
+
+}
+
+.experiences {
+    flex: 1 1 60%;
+    margin-right: 40px;
+}
+
+.experiences__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experiences__company {
+    /* left margin or padding? */
+}
+
+.experiences__company-header {
+
+}
+
+.experiences__company-header-durability {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.experiences__company-header-name {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experiences__company-project {
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.experiences__company-project-role {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.experiences__company-project-name {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.experiences__company-project-responsibilities {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
+.additional-info {
+    flex: 1 1 40%;
 }
