@@ -26,6 +26,12 @@ body {
     justify-content: space-between;
 }
 
+.fv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .resume {
     margin: 50px 75px;
     border: 1px solid #f5f5f5;
@@ -233,4 +239,38 @@ body {
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+}
+
+.additional-info__achievements {
+    margin-bottom: 20px;
+}
+
+.additional-info__achievements-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__achievements-item {
+
+}
+
+.additional-info__achievements-item-date {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__achievements-item-what {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__achievements-item-description {
+    color: var(--secondary-text-color);
+}
+
+.additional-info__achievements-item-description:not(:last-child) {
+    margin-bottom: 10px;
 }
