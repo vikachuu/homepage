@@ -8,16 +8,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 
-    --primary-text-color: green;
+    --primary-text-color: #028e3f;
     --secondary-text-color: #6a737d;
-    --icon-color: green;
+    --durability-text-color: #6a737d9c;
+    --icon-color: #028e3f;
     --border-color: #b1b3b552;
 }
 
 .container {
     margin: 0 auto;
     padding: 0 30px;
-    max-width: 1200px;
+    max-width: 900px;
 }
 
 .fh {
@@ -33,10 +34,11 @@ body {
 }
 
 .resume {
-    margin: 50px 75px;
+    margin: 50px auto;
     border: 1px solid #f5f5f5;
-    box-shadow: 2px 2px 2px 1px #f5f5f5;
+    box-shadow: 0px 2px 7px 7px #f5f5f5;
     padding: 30px 0;
+    max-width: 900px;
 }
 
 .resume__block {
@@ -174,9 +176,10 @@ body {
 }
 
 .experiences__company-header-durability {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .experiences__company-header-name {
@@ -191,9 +194,10 @@ body {
 }
 
 .experiences__company-project-role {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .experiences__company-project-name {
@@ -226,9 +230,10 @@ body {
 }
 
 .additional-info__education-university-durability {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
@@ -256,9 +261,10 @@ body {
 }
 
 .additional-info__achievements-item-date {
-    color: var(--secondary-text-color);
+    color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .additional-info__achievements-item-what {
@@ -287,4 +293,53 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.additional-info__hobbies {
+
+}
+
+.additional-info__hobbies-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__hobbies-items-3 {
+    fill: var(--icon-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.additional-info__hobbies-items-2 {
+    fill: var(--icon-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.additional-info__hobbies-items-icon {
+    height: 40px;
+}
+
+.icon-color__red {
+    fill: #90210cba;
+}
+
+.icon-color__blue {
+    fill: #4989bda6;
+}
+
+.icon-color__green {
+    fill: #0a7310c2;
+}
+
+.icon-color__yellow {
+    fill: #dac50cb5;
+}
+
+.icon-color__violet {
+    fill: #360f6fab;
 }
