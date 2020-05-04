@@ -6,6 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
     --primary-text-color: green;
     --secondary-text-color: #6a737d;
     --icon-color: green;
@@ -148,7 +150,7 @@ body {
 
 .experiences {
     flex: 1 1 60%;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .experiences__header {
@@ -158,7 +160,7 @@ body {
 }
 
 .experiences__company {
-    /* left margin or padding? */
+
 }
 
 .experiences__company-header {
@@ -201,4 +203,34 @@ body {
 
 .additional-info {
     flex: 1 1 40%;
+}
+
+.additional-info__education {
+    margin-bottom: 20px;
+}
+
+.additional-info__education-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+
+}
+
+.additional-info__education-university-durability {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__education-university-speciality {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__education-university-name {
+    color: var(--secondary-text-color);
 }
