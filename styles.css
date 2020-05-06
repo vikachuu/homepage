@@ -311,3 +311,19 @@ body {
 .icon-color__violet {
     fill: #360f6fab;
 }
+
+@media screen and (max-width: 576px) {
+    .main-info,
+    .contact_info_container {
+        flex-direction: column;
+    }
+    .contact_info_container {
+        align-items: center;
+    }
+    .contact-info__block:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .experiences {
+        margin-right: 0;
+    }
+}
