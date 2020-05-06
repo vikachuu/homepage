@@ -318,12 +318,15 @@ body {
     .contact_info_container {
         flex-direction: column;
     }
+
     .contact_info_container {
         align-items: center;
     }
+
     .contact-info__block:not(:last-child) {
         margin-bottom: 20px;
     }
+    
     .experiences {
         margin-right: 0;
     }
